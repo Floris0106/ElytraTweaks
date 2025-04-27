@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "elytratweaks",
+  "version": "${version}",
+  "name": "ElytraTweaks",
+  "description": "A collection of tweaks to assist with elytra flight.",
+  "authors": ["Floris0106"],
+  "license": "ARR",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "floris0106.elytratweaks.ElytraTweaks"
+    ]
+  },
+  "mixins": [
+    "elytratweaks.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
