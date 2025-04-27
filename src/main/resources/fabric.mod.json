@@ -4,8 +4,13 @@
   "version": "${version}",
   "name": "ElytraTweaks",
   "description": "A collection of tweaks to assist with elytra flight.",
+  "contact": {
+    "homepage": "https://modrinth.com/mod/elytratweaks",
+    "issues": "https://github.com/Floris0106/ElytraTweaks/issues",
+    "sources": "https://github.com/Floris0106/ElytraTweaks"
+  },
   "authors": ["Floris0106"],
-  "license": "ARR",
+  "license": "MIT",
   "environment": "client",
   "entrypoints": {
     "client": [
